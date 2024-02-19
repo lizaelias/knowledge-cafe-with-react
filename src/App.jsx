@@ -8,10 +8,19 @@ import Headers from './components/Headers'
 
 function App() {
  
-   const [bookmarks, setBooksMarks] =useState([])
+   const [bookmarks, setBooksMarks] =useState([]);
+   const [markRead ,setMarkRead]=useState(0)
 
    const handleBookmarks = (blog)=>{
-     console.log(blog)
+     const newBookMarks = [...bookmarks,blog]
+     setBooksMarks(newBookMarks);
+   }
+
+   const handleMarkReadingTime =(id,time)=>{
+    const newTime = markRead + (+time);
+    setMarkRead(newTime)
+    const remainingBooks = bookmarks.filter(bookmark => bookmark.id !==id);
+    setBooksMarks(remainingBooks)
    }
 
 
@@ -23,8 +32,8 @@ function App() {
 
 
       <div className='flex'>
-      <Blogs handleBookmarks={handleBookmarks}></Blogs>
-       <Bookmarks></Bookmarks>
+       <Blogs handleBookmarks={handleBookmarks} handleMarkReadingTime={handleMarkReadingTime}></Blogs>
+       <Bookmarks bookmarks={bookmarks} markRead={markRead} ></Bookmarks>
       </div>
 
 

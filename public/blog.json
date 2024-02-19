@@ -8,11 +8,11 @@
   {
     "id": 1,
     "cover": "https://i.ibb.co/HBx38Z2/e-learning-concept-banner-template-23-2148688187.jpg",
-    "title": "Lorem Ipsum",
+    "title": "custom styles then apply the Roboto font family to the body element",
     "author": "John Doe",
     "author_img":"https://i.ibb.co/30KzR1c/profile.png" ,
     "posted_date": "2024-02-19",
-    "reading_time": "10 mins",
+    "reading_time": "10",
     "hashtags": ["fiction", "Lorem", "Ipsum"]
   },
   {
@@ -22,7 +22,7 @@
     "author": "Jane Smith",
     "author_img":"https://i.ibb.co/30KzR1c/profile.png" ,
     "posted_date": "2024-02-18",
-    "reading_time": "15 mins",
+    "reading_time": 15,
     "hashtags": ["programming", "coding", "development"]
   },
   {
@@ -32,17 +32,17 @@
     "author": "Alice Johnson",
     "author_img":"https://i.ibb.co/30KzR1c/profile.png" ,
     "posted_date": "2024-02-17",
-    "reading_time": "20 mins",
+    "reading_time":" 20",
     "hashtags": ["cooking", "recipes", "food"]
   },
   {
     "id": 4,
     "cover": "https://i.ibb.co/gwTMf3L/teacher-s-day-horizontal-banner-template-23-2149090203.jpg",
-    "title": "Travel Diaries",
+    "title": "Travel Diaries custom styles then apply the Roboto",
     "author": "Michael Brown",
     "author_img":"https://i.ibb.co/30KzR1c/profile.png" ,
     "posted_date": "2024-02-16",
-    "reading_time": "25 mins",
+    "reading_time": 25,
     "hashtags": ["travel", "adventure", "explore"]
   },
   {
@@ -52,7 +52,7 @@
     "author": "Emily Wilson",
     "author_img":"https://i.ibb.co/30KzR1c/profile.png",
     "posted_date": "2024-02-15",
-    "reading_time": "30 mins",
+    "reading_time": 30,
     "hashtags": ["fitness", "exercise", "health"]
   }
 ]
